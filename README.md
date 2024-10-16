@@ -44,14 +44,13 @@ The method involves:
 <b> Note here that the model response contains words that might not be easy to understand for a child such as chlorophyll. To get better responses from the model, fine-tune the model with Low Rank Adaptation (LoRA)
 
 ### 4 - Fine tuning using `LoRA`
-![LoRA]()
+![LoRA](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/lora.png)
 
-- Used this URL to get transcripts through `YoutubeLoader` and `UnstructuredURLLoader` in `Langchain` and converting those to data which needs to be passed to the LLM
+- Note that enabling LoRA reduces the number of trainable parameters significantly (from 2.6 billion to 2.9 million)
 
 
-### Sample Working
+### 5 - Inferences after Fine tuning
 
-![Demo](https://github.com/Pratik872/Youtube-Video-Summarizer/blob/main/readme%20resources/app%20sample.png)
 
 
 ### Built with 🛠️

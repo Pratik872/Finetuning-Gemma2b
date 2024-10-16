@@ -32,8 +32,11 @@ The method involves:
 
 - Large Language Models (LLMs) like Gemma have been shown to be effective at a variety of NLP tasks. An LLM is first pre-trained on a large corpus of text in a self-supervised fashion. Pre-training helps LLMs learn general-purpose knowledge, such as statistical relationships between words. An LLM can then be fine-tuned with domain-specific data to perform downstream tasks (such as sentiment analysis).
 
-### 3 - Creating a prompt for LLM
-- Created a prompt template using `Langchain`
+![Gemma](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/gemma.png)
+
+### 3 - Completions before Fine Tuning
+- Asking about Europe trip
+![Europe]()
 
 - Defined the prompt to LLM using prompt template
 

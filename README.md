@@ -50,7 +50,15 @@ The method involves:
 
 
 ### 5 - Inferences after Fine tuning
+- Asking about Europe trip
+![Europe2](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/inf%20after%20lora1.png)
 
+<b>Note that the model now recommends places to visit in Europe.
+
+- Asking about Photosynthesis
+![Photosynthesis2](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/inf%20after%20lora2.png)
+
+<b>Note that the model now explains photosynthesis in simpler terms. 
 
 
 ### Built with 🛠️

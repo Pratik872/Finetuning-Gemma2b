@@ -60,9 +60,3 @@ The method involves:
 
 <b>Note that the model now explains photosynthesis in simpler terms. 
 
-
-### Built with 🛠️
-- Packages/Repo : Langchain, Jupyter, Streamlit, Groq
-
-- Coded on : Jupter Notebook (modelling), VSCode(building application)
-

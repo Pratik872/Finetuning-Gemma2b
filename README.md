@@ -36,12 +36,15 @@ The method involves:
 
 ### 3 - Completions before Fine Tuning
 - Asking about Europe trip
-![Europe]()
+![Europe](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/inferences%20before%20finetuning1.png)
 
-- Defined the prompt to LLM using prompt template
+- Asking about Photosynthesis
+![Photosynthesis](https://github.com/Pratik872/Finetuning-Gemma2b/blob/main/readme%20resources/inferences%20before%20finetuning2.png)
 
-### 4 - Getting transcripts for the video/website using external tools and `Langchain`
-- Fetching the URL uploaded by user through streamlit
+<b> Note here that the model response contains words that might not be easy to understand for a child such as chlorophyll. To get better responses from the model, fine-tune the model with Low Rank Adaptation (LoRA)
+
+### 4 - Fine tuning using `LoRA`
+![LoRA]()
 
 - Used this URL to get transcripts through `YoutubeLoader` and `UnstructuredURLLoader` in `Langchain` and converting those to data which needs to be passed to the LLM
 
